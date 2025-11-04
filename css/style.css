@@ -1,0 +1,167 @@
+/* Custom Properties  */
+:root{
+  --first-color: rgb(18 79 136);
+  --second-color: rgb(220 220 205);
+  --second-color-alpha: rgba(233, 233, 227, 0.75);
+  --third-color: rgb(95 10 10);
+  ---third-color-alpha: rgba(95, 10, 10, 0.75);
+  --bg-color: rgb(245 245 245);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+
+}
+
+/* Reset Styles  */
+body {
+   font-family: "Raleway", sans-serif;
+}
+
+/* Bootstraps Styles  */
+
+a {
+  color: var(--third-color) ;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: var(---third-color-alpha) !important;
+}
+.bg-body-tertiary {
+  background-color: var(--second-color) !important;
+ 
+  }
+
+  .bg-alpha-color {
+    background-color: var(--bg-alpha-color) ;
+  }
+
+  
+
+  .btn-success {
+    background-color: var(--second-color);
+    border: none;
+    color: var(--third-color);
+  }
+  .btn-success:hover {
+    background-color: var(--second-color-alpha);
+    color: var(--third-color);
+  }
+
+  .img-article {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+
+.card {
+  height: 450px; /* Ajusta la altura según sea necesario */
+}
+
+  .card-img-top {
+  width: 100%;
+  height: 20rem;        /* ajusta la altura a la que quieras */
+  object-fit: cover;    /* recorta la imagen manteniendo proporción */
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  max-height: 800px;   /* altura máxima deseada en desktop */
+  height: auto;
+  object-fit: contain;   /* recorta manteniendo proporción */
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235F0A0A'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0'/%3e%3c/svg%3e") 
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235F0A0A'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e") 
+}
+
+ .dropdown-item  {
+  color: var(--third-color) !important; 
+  background-color: var(--second-color-alpha);
+  }
+
+.dropdown-menu {
+  background-color: var(--second-color-alpha);
+}
+.navbar-brand img {
+  height: 3rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.nav-item {
+  padding-left: 0.5rem;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item:hover {
+  background-color: var(--second-color-alpha);
+}
+
+.nav-item{
+   font-weight: bold;
+  font-size: 1.1rem;
+
+}
+
+.nav-link:hover {
+  color: var(--third-color) !important;
+ 
+}
+ /* my styles  */
+
+ .bg-gradient {
+background-color: rgba(248, 243, 235, 1);
+background-image: linear-gradient(
+  90deg,
+  rgba(248, 243, 235, 1) 0%,
+  rgba(240, 228, 215, 1) 100%
+);
+;
+;
+;}
+
+  .bg-hero-image {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .nav-item:hover {
+  background-color: transparent;
+} 
+
+ }
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
+
+
+
+
+
